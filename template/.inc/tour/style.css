@@ -25,7 +25,7 @@ i {display:inline-block; background:url(images/icons.png) no-repeat;)}
 .tour_aviabar .button {margin:15px 0 7px;}
 .tour_aviabar .rightSide  .bottomText {display:table-row-group;}
 .tour_aviabar .rightSide  .bottomText > span {display:block; padding:10px 0 0 15px;}
-.tour_aviabar .popOver {font-weight:600; color:#9b002f; padding:0 0 0 5px;}
+.tour_aviabar .popOver {font-weight:600; color:#9b002f; padding:0 0 0 5px; cursor: pointer;}
 @media (min-width: 480px) {     
     .tour_aviabar .aviability, .tour_aviabar .tour_info {width:auto; margin:0px;} 
     .tour_aviabar {margin:0 -15px;}
