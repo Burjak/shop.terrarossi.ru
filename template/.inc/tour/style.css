@@ -1,4 +1,4 @@
-﻿/* Иконки */
+/* Иконки */
 i {display:inline-block; background:url(images/icons.png) no-repeat;)}
 .room {width:19px; height:19px; background-position:-1px 0;}
 .fly-forward {width:23px; height:19px; background-position:-30px 0;}
@@ -18,14 +18,15 @@ i {display:inline-block; background:url(images/icons.png) no-repeat;)}
 .tour_aviabar .tour_info {padding-bottom:15px; width:100%; margin:0 0 10px;}
 .tour_aviabar .dottedBot {padding:15px 19px 10px; margin:0 0 10px; white-space:nowrap;}
 .tour_aviabar .price {font-size:24px; font-weight:700; color:#99002e; padding:5px 20px; white-space:nowrap;}
-.tour_aviabar .vertLine {width:33.3%; float:left; border-left:1px dotted #999; padding:10px 6px;}
+.tour_aviabar .vertLine {width:33.3%; border-left:1px dotted #999; padding:10px 6px; min-width: 70px;}
 .tour_aviabar .vertLine:first-child {border:0px;}
-.tour_aviabar .aviability {width:100%;}
+.tour_aviabar .aviability {width:100%; display: table;}
 .tour_aviabar i {margin:5px 0 15px;}
-.tour_aviabar .button {margin:15px 0 7px;}
+.tour_aviabar .but-group {margin:15px 0 7px;}
+.tour_aviabar .but-group span {display:block; line-height:1; padding:0 0 5px; white-space:nowrap;}
 .tour_aviabar .rightSide  .bottomText {display:table-row-group;}
 .tour_aviabar .rightSide  .bottomText > span {display:block; padding:10px 0 0 15px;}
-.tour_aviabar .popOver {font-weight:600; color:#9b002f; padding:0 0 0 5px; cursor: pointer;}
+.tour_aviabar .popOver {font-weight:600; color:#9b002f; padding:0 0 0 5px;}
 @media (min-width: 480px) {     
     .tour_aviabar .aviability, .tour_aviabar .tour_info {width:auto; margin:0px;} 
     .tour_aviabar {margin:0 -15px;}
