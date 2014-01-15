@@ -8,6 +8,7 @@
     
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scrollTop.js"></script>
     
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
@@ -51,13 +52,14 @@
             <div class="top">
                 <%html:top%>
             </div>
-            <div class="contentBody">
-                <%html:body%>
+            <div class="table-show">
+                <div class="contentBody">
+                    <%html:body%>
+                </div>
+                <aside class="rightCol">
+                    <%html:right%>
+                </aside>
             </div>
-            <aside class="rightCol">
-                <%html:right%>
-            </aside>
-            <div class="clear"></div>
         </div>
     </div>
     <footer class="footer">

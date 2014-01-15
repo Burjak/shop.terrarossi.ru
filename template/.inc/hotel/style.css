@@ -1,0 +1,141 @@
+.hotel .title {padding:0 0 3px;}
+.hotel .title .star {background:url(images/star.png) no-repeat; width:29px; height:28px; font-size:12px; color:#fff; padding: 8px 0; text-align:center; display:inline-block; vertical-align:super; margin:0 0 0 5px;}
+.hotel .control {padding: 8px 0 0; display:none;}
+@media (min-width: 768px) {
+	.hotel .control {display:block;}
+	.hotel .secondCol {padding-left:0px;}
+}
+.hotel .control a {display:inline-block; width:18px; height:18px; background:url(images/arrControl.png) 6px 4px no-repeat #a40029;}
+.hotel .control .next {background-position:-13px 4px;}
+.hotel .control a:hover {background-color:#be0030;}
+.hotel .firstCol .tabs {margin:11px 0 9px;}
+.hotel .secondCol .tabs {margin:0 0 8px 10px;}
+.hotel .tabs li {display:inline-block;}
+.hotel .firstCol {margin:0 0 15px;}
+.hotel .firstCol .tabs a {color:#4276ab; padding:2px 5px; border-radius:3px; text-decoration:none; display:block;}
+.hotel .secondCol .tabs a {padding:1px 5px 2px; border-radius:3px; color:#000; text-decoration:underline;}
+.hotel .tabs .active a {color:#fff; background:#b90038; text-decoration:none;}
+.hotel .slider {background: #fff; border: 4px solid #fff; position: relative; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.1); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.1); -o-box-shadow: 0 1px 4px rgba(0,0,0,.1); box-shadow: 0 1px 4px rgba(0,0,0,.1); user-select: none; -moz-user-select: -moz-none; margin:0px;}
+.hotel .tab-content {margin:0 0 15px;}
+#hotelCarousel {padding:9px 19px 5px;}
+.hotel .min {font-weight:300; color:#9b002f;}
+.hotel .text {text-align:justify;}
+.hotel .sort {font-size:13px;}
+.hotel .tourInfo {background:#e9e9e9; border:1px solid #d9d9d9; border-radius:3px; padding:2px 15px 2px 10px; margin:5px 0; position:relative;}
+.hotel .tourInfo .row > div {vertical-align:middle; padding:0 10px;}
+.hotel .price {white-space:nowrap;}
+.hotel .price span {font-weight:600; color:#96002d; font-size:18px;}
+.hotel .tourInfo .forward, .hotel .tourInfo .back {background:url(images/planes.png) 0 0 no-repeat; padding:2px 0 2px 45px; white-space:nowrap;}
+.hotel .tourInfo .back {background-position:0 -18px;}
+.hotel .services {padding:0 15px 0 0;}
+.hotel .services i {float:left; width:27px; height:27px; border:1px solid #cbcbcb; border-radius:3px; margin: 0 0 0 -34px; background:url(images/servicesIcons.jpg) 4px 4px no-repeat;}
+.hotel h4 {font-size:10px; color:#99002e; text-transform:uppercase; padding:0 0 2px;}
+.hotel .services  .service2 i {background-position:-26px 4px;}
+.hotel .services  .service3 i {background-position:-57px 4px;}
+.hotel .services  .service4 i {background-position:-83px 4px;}
+.hotel .services  .service5 i {background-position:-113px 4px;}
+.hotel .services  .service6 i {background-position:-146px 4px;}
+.hotel .services > div {padding:5px 0 10px 49px;}
+.hotel h3 {
+    background:#99002e;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bf003a', endColorstr='#99002e');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#bf003a), to(#99002e));
+    background-image: -moz-linear-gradient(top,  #bf003a,  #99002e);  
+    background-image: -o-linear-gradient(top,  #bf003a,  #99002e);
+    color:#fff; font-size:18px; border-radius:3px; padding:2px 7px 3px; margin:0 0 15px;
+}
+.hotel dl {border-bottom:1px dotted #999; overflow:hidden; margin:0 7px 1px; padding-bottom:1px;}
+.hotel dt {float:left;}
+.hotel dd {float:right;}
+@media (max-width: 480px) {
+    .hotel .tourInfo .more {position:absolute; top:-2px; left:0px; width:100%; height:54px; background:none; text-indent:-999px;}
+    .hotel .tourInfo .row .moreLine  {padding:0px;}
+    .hotel .services .col-xs-4 {width:49%; float:none; display:inline-block; vertical-align:top;}
+    .hotel .services .clearfix {display:none;}
+}
+.hotel .comment {padding: 0 0 15px;}
+.hotel .textComment:after {background: url(images/arrowComment.png) 0 0 rgba(0, 0, 0, 0); bottom: -9px; content: ""; display: block; height: 9px; left: 20px;    position: absolute; width: 18px;}
+.hotel .textComment {background:#E9E9E9; margin: 0 0 15px; padding: 5px 10px 8px; position: relative; text-align: left; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px;}
+.hotel .comment span {padding:0 0 0 5px;}
+
+/* Flexslider */
+
+/*
+ * jQuery FlexSlider v2.2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+
+
+/* Browser Resets
+*********************************/
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
+
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider {margin: 0; padding: 0;}
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.slides:after {content: "\0020"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
+* html .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {zoom: 1; position:relative;}
+.flexslider li {color:#fff;}
+.flex-viewport { max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
+.loading .flex-viewport { max-height: 300px; }
+.flexslider .slides { zoom: 1; }
+#hotelCarousel li img {padding:0 2px; cursor:pointer;}
+@media (max-width: 480px) {
+    #hotelCarousel {display:none;}
+}
+
+/* Direction Nav */
+.flex-direction-nav {*height: 0;}
+.flex-direction-nav a  { text-decoration:none; display: block; width: 12px; height: 18px; margin: -7px 0 0; position: absolute; top: 50%; z-index: 10; overflow: hidden; cursor: pointer; font-size:0px; background:url(images/sliderControl.png) no-repeat;}
+.flex-direction-nav .flex-prev { left: 3px; }
+.flex-direction-nav .flex-next { right: 3px; background-position:-13px 0; }
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
+.flex-direction-nav .flex-disabled { opacity: 0!important; filter:alpha(opacity=0); cursor: default; }
+
+/* Pause/Play */
+.flex-pauseplay a { display: block; width: 20px; height: 20px; position: absolute; bottom: 5px; left: 10px; opacity: 0.8; z-index: 10; overflow: hidden; cursor: pointer; color: #000; }
+.flex-pauseplay a:before  { font-size: 20px; display: inline-block; content: '\f004'; }
+.flex-pauseplay a:hover  { opacity: 1; }
+.flex-pauseplay a.flex-play:before { content: '\f003'; }
+
+/* Control Nav */
+.flex-control-nav {width: 100%; position: absolute; bottom: -40px; text-align: center;}
+.flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-paging li a {width: 11px; height: 11px; display: block; background: #666; background: rgba(0,0,0,0.5); cursor: pointer; text-indent: -9999px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); -moz-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); -o-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); box-shadow: inset 0 0 3px rgba(0,0,0,0.3); }
+.flex-control-paging li a:hover { background: #333; background: rgba(0,0,0,0.7); }
+.flex-control-paging li a.flex-active { background: #000; background: rgba(0,0,0,0.9); cursor: default; }
+
+.flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
+.flex-control-thumbs li {width: 25%; float: left; margin: 0;}
+.flex-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}
+.flex-control-thumbs img:hover {opacity: 1;}
+.flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
+
+#hotelCarousel .flex-active-slide {opacity:0.7;}
