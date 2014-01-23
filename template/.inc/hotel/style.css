@@ -57,6 +57,7 @@
 .hotel .textComment:after {background: url(images/arrowComment.png) 0 0 rgba(0, 0, 0, 0); bottom: -9px; content: ""; display: block; height: 9px; left: 20px;    position: absolute; width: 18px;}
 .hotel .textComment {background:#E9E9E9; margin: 0 0 15px; padding: 5px 10px 8px; position: relative; text-align: left; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px;}
 .hotel .comment span {padding:0 0 0 5px;}
+.hotel .responsiveMap {height:250px; width:100%;}
 
 /* Flexslider */
 

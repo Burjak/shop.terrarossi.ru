@@ -84,7 +84,7 @@ h2 {font-size:24px; padding:10px 0 10px; line-height:1; }
     .top-menu, .top-menu.collapse {display:inline-block;}
 }
 
-.content {padding:0 0 200px;}
+.content {padding:0 0 200px; overflow:hidden;}
 .rightCol {padding:15px 0 0 0; width:100%;}
 .slider {width:100%; margin:0 0 15px;}
 .grayBlock {background:url(../images/bg-grayBlock.jpg); border-radius:5px; padding:10px 15px;}
